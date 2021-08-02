@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+</head>
+
+<body>
+
+
+    <script>
+        // javascript vem aqui
+
+        // var nome_variavel; //javascript puro
+        // let nome_variavel; // ECMA 5
+        // const nome_variavel; //const -> constante
+
+
+        // //const 
+        // // Constante, não varia no código
+        // const nome_var = valor (bool,int,float,string,char);
+
+        // // var e let
+        // // Não constantes
+        // var nome_var;
+        // var nome_var = valor;
+        // let nome_var;
+        // let nome_var = valor;
+
+        //-----------area de treino-----------
+        const PI = 3.14;
+        console.log(Math.PI);
+        var video = new Blob();
+
+
+        //-----------------Funções---------------------
+
+        function nome2(params) {
+
+        }
+        //return undefined
+
+
+
+        function name(params) {
+            return Blob;
+        }
+        // return tipo do valor retornado
+
+        //---------Exemplos-----------
+
+
+
+        console.log(IntSum(2, 5));
+        console.log(IntSum(" 25 anos ", 10));
+
+
+        //-----------Funções Anônimas (desconhecida)----------
+        // Não tem nome
+
+        //    (function (params){
+
+        //    })(params)
+
+        (function (text) {
+            console.log(text);
+        })("Olá Afonso!!");
+
+
+        //----------Arrow Functions------------
+
+        //----------Arrow Function Anônima---------
+
+        // ((text) => {
+        //     console.log(text)
+        // })("Olá FonFon")
+
+        //----------Arrow Function com Nome-----------
+        //Criar uma variavel
+        // Atribuir a variavel a função
+
+        function IntSum(a, b) { // a e b são paramentros da função
+            var A = isNaN(parseInt(a)) ? 0 : parseInt(a); //explicar já
+            var B = parseInt(b);
+            return A + B;   //somando  num com num    // num com NaN concatenar
+        }
+
+        var SomarInt = (a, b) => {
+            console.log(a + b);
+        }
+
+        const Soma = (params) => {
+            params
+        }
+
+
+        //--------Estruturas de Repetição------------
+
+        //----------for-----------
+        // for(var count=0;count<10;count++){
+        //     console.log(count);
+        // }
+
+        //---------while--------------
+        // var count = 0;
+        // while (count < 0) {
+        //     console.log(count);
+        //     count++;
+        // }
+
+
+        //-----------do..while-------------
+        // var count = 0;
+        // do {
+        //     console.log(count);
+        //     count++;
+        // } while (count < 0)
+
+
+
+        //-----------Estruturas Condicionais------------
+
+        //if..else
+
+        // if (condição) {
+
+        // } else {
+
+        // }
+
+
+        //--------------switch---------------
+        // switch (variavel) {
+        //     case variavelValor1:
+        //         break;
+        //     case variavelValor2:
+        //         break;
+        // }
+
+        //-----------Operador Ternário-----------
+        // se condição ? verdadeira : falsa
+        // condição ? valor1 : valor2
+
+
+
+        //Objects and Arrays
+
+        //objeto
+        // {} = objeto
+        // {a,b,c,d,2,4,8}
+
+        // var obj = {
+        //     'primeiro': 1,
+        //     'segundo': 8,
+        //     'terceiro': 15,
+        //     'quarto': 28,
+        //     'quinto': 24,
+        //     'sexto': 23,
+        //     'setimo': 12,
+        //     'oitavo': () => { console.log("gabriel chato!!") }
+        // };
+
+    // for..in funciona com objetos 
+
+    // for(var key in obj){
+    //     console.log("Obj["+key+"] "+" = "+obj[key])
+    // }
+
+
+
+    //Array 
+    // [] = Array
+
+    //for..of funciona com Array
+    // var arr = ["a","b","c","d",2,4,8]
+    // for(var valor of arr){console.log(valor)}
+    // arr.forEach((valor,index)=>{console.log(valor,index)})
+    </script>
+
+
+</body>
+
+</html>
